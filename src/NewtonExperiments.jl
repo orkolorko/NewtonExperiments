@@ -1,6 +1,6 @@
 module NewtonExperiments
 
-export N, raiz, NewtonBasin, flagging_roots, color_list , color_list2 # uma vez que eu chamar using ExemploJoao, N aparece sem ter que escrever ExemploJoao.N
+export N, raiz, NewtonBasin, flagging_roots, color_list , color_list2, cores_joao # uma vez que eu chamar using ExemploJoao, N aparece sem ter que escrever ExemploJoao.N
 
 
 N(x, f, fprime) = x - f(x)/fprime(x)
